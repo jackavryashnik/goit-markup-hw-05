@@ -544,7 +544,7 @@ textarea {
   fill: #f4f4fd;
 }
 
-.footer-suscribtion .footer-form__container {
+.footer-form {
   display: flex;
   gap: 24px;
 }
@@ -680,13 +680,20 @@ textarea {
 
 .form-input {
   margin-top: 4px;
-  margin-bottom: 8px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   background-color: transparent;
   outline: transparent;
   border-radius: 4px;
   padding-left: 38px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-input:focus {
+  border-color: #4d5ae5;
+}
+
+.form-input:focus .modal-icon {
+  fill: #4d5ae5;
 }
 
 .modal-icon {
@@ -764,6 +771,14 @@ textarea {
   display: flex;
 }
 
+.order-form-container {
+  margin-bottom: 8px;
+}
+
+.comment-container {
+  margin-bottom: 16px;
+}
+
 .fake-checkbox {
   width: 16px;
   height: 16px;
@@ -779,7 +794,7 @@ textarea {
 
 .checkbox:checked .fake-checkbox {
   background-color: #404bbf;
-  fill: #404bbf;
+  fill: #f4f4fd;
   border: none;
 }
 

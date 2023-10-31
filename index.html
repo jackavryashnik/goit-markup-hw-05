@@ -436,21 +436,19 @@
           <p class="footer__social-title">Subscribe</p>
           <form class="footer-form" name="subscribtion-form">
             <label class="footer-form__label" for="subscribe"></label>
-            <div class="footer-form__container">
-              <input
-                type="email"
-                name="email"
-                class="form-input"
-                id="subscribe"
-                placeholder="E-mail"
-              />
-              <button type="submit" class="form-btn">
-                Subscribe
-                <svg class="subscribtion-btn-icon" width="24" height="24">
-                  <use href="./images/icons.svg#send-icon"></use>
-                </svg>
-              </button>
-            </div>
+            <input
+              type="email"
+              name="email"
+              class="form-input"
+              id="subscribe"
+              placeholder="E-mail"
+            />
+            <button type="submit" class="form-btn">
+              Subscribe
+              <svg class="subscribtion-btn-icon" width="24" height="24">
+                <use href="./images/icons.svg#send-icon"></use>
+              </svg>
+            </button>
           </form>
         </div>
       </div>
@@ -494,17 +492,15 @@
             </div>
           </div>
 
-          <div class="order-form-container">
+          <div class="order-form-container comment-container">
             <label class="form-label" for="user-comment">Comment</label>
-            <div class="input-container">
-              <textarea
-                name="comment"
-                class="form-input form-textarea"
-                id="user-comment"
-                placeholder="Text input"
-                rows="5"
-              ></textarea>
-            </div>
+            <textarea
+              name="comment"
+              class="form-input form-textarea"
+              id="user-comment"
+              placeholder="Text input"
+              rows="5"
+            ></textarea>
           </div>
 
           <div class="order-form-container">
@@ -520,9 +516,10 @@
               ><span class="fake-checkbox"
                 ><svg class="close-icon" width="10" height="8">
                   <use href="./images/icons.svg#close-icon"></use></svg></span
-              >I accept the terms and conditions of the</label
+              >I accept the terms and conditions of the <a href="#" class="privacy-policy"
+                >Privacy Policy</a
+              ></label
             >
-            <a href="#" class="privacy-policy">Privacy Policy</a>
           </div>
 
           <button type="submit" class="form-btn">Send</button>
