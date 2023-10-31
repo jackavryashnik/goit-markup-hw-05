@@ -435,15 +435,22 @@
         <div class="footer-suscribtion">
           <p class="footer__social-title">Subscribe</p>
           <form class="footer-form" name="subscribtion-form">
-            <label class="footer-form__label">
-              <input type="email" name="email" class="form-input" placeholder="E-mail" />
+            <label class="footer-form__label" for="subscribe"></label>
+            <div class="footer-form__container">
+              <input
+                type="email"
+                name="email"
+                class="form-input"
+                id="subscribe"
+                placeholder="E-mail"
+              />
               <button type="submit" class="form-btn">
                 Subscribe
                 <svg class="subscribtion-btn-icon" width="24" height="24">
                   <use href="./images/icons.svg#send-icon"></use>
                 </svg>
               </button>
-            </label>
+            </div>
           </form>
         </div>
       </div>
@@ -513,7 +520,8 @@
               ><span class="fake-checkbox"
                 ><svg class="close-icon" width="10" height="8">
                   <use href="./images/icons.svg#close-icon"></use></svg></span
-            >I accept the terms and conditions of the</label>
+              >I accept the terms and conditions of the</label
+            >
             <a href="#" class="privacy-policy">Privacy Policy</a>
           </div>
 

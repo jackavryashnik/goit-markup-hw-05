@@ -544,7 +544,7 @@ textarea {
   fill: #f4f4fd;
 }
 
-.footer-suscribtion .footer-form__label {
+.footer-suscribtion .footer-form__container {
   display: flex;
   gap: 24px;
 }
