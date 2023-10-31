@@ -590,16 +590,26 @@ textarea {
   display: none;
   position: fixed;
   top: 0;
+  left: 0;
   z-index: 999;
   width: 100vw;
   height: 100vh;
-  justify-content: center;
-  align-items: center;
-  background: rgba(46, 47, 66, 0.4);
+  background-color: rgba(46, 47, 66, 0.4);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-wrapper {
-  position: relative;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1);
+  width: 408px;
+  min-height: 584px;
+  background: #fcfcfc;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .close-btn {
@@ -619,7 +629,6 @@ textarea {
 .order-form {
   display: flex;
   flex-direction: column;
-  width: 408px;
   gap: 8px;
   padding: 72px 24px 24px;
   border-radius: 4px;
