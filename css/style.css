@@ -544,6 +544,11 @@ textarea {
   fill: #f4f4fd;
 }
 
+.footer-form {
+  display: flex;
+  gap: 24px;
+}
+
 .footer-form__label {
   display: flex;
   gap: 24px;
