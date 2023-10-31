@@ -57,54 +57,6 @@
         <div class="container flex-center">
           <h1 class="hero-section__title">Effective Solutions for Your Business</h1>
           <button type="button" class="hero-section__btn">Order Service</button>
-          <div class="modal-overlay is-open">
-            <div class="modal-wrapper">
-              <form class="order-form">
-                <div class="close-btn">
-                  <svg class="modal-icon" width="24" height="24">
-                    <use href="./images/icons.svg#close-icon"></use>
-                  </svg>
-                </div>
-                <p class="modal-title">Leave your contacts and we will call you back</p>
-                <label class="form-label"
-                  >Name
-                  <svg class="modal-icon" width="24" height="24">
-                    <use href="./images/icons.svg#person-icon"></use>
-                  </svg>
-                  <input type="text" name="user-name" class="form-input" required />
-                </label>
-                <label class="form-label"
-                  >Phone
-                  <svg class="modal-icon" width="24" height="24">
-                    <use href="./images/icons.svg#phone-icon"></use>
-                  </svg>
-                  <input type="text" name="phone" class="form-input" required />
-                </label>
-                <label class="form-label"
-                  >Email
-                  <svg class="modal-icon" width="24" height="24">
-                    <use href="./images/icons.svg#email-icon"></use>
-                  </svg>
-                  <input type="text" name="email" class="form-input" required />
-                </label>
-                <label class="form-label"
-                  >Comment
-                  <textarea
-                    name="comment"
-                    class="form-input"
-                    placeholder="Text input"
-                    rows="5"
-                  ></textarea>
-                </label>
-                <label class="form-label checkbox">
-                  <input type="checkbox" name="policy" class="form-input checkbox" required />
-                  I accept the terms and conditions of the
-                  <a href="#" class="privacy-policy">Privacy Policy</a>
-                </label>
-                <button type="submit" class="form-btn">Send</button>
-              </form>
-            </div>
-          </div>
         </div>
       </section>
 
@@ -496,5 +448,53 @@
         </div>
       </div>
     </footer>
+    <div class="modal-overlay is-open">
+      <div class="modal-wrapper">
+        <form class="order-form">
+          <div class="close-btn">
+            <svg class="modal-icon" width="24" height="24">
+              <use href="./images/icons.svg#close-icon"></use>
+            </svg>
+          </div>
+          <p class="modal-title">Leave your contacts and we will call you back</p>
+          <label class="form-label"
+            >Name
+            <svg class="modal-icon" width="24" height="24">
+              <use href="./images/icons.svg#person-icon"></use>
+            </svg>
+            <input type="text" name="user-name" class="form-input" required />
+          </label>
+          <label class="form-label"
+            >Phone
+            <svg class="modal-icon" width="24" height="24">
+              <use href="./images/icons.svg#phone-icon"></use>
+            </svg>
+            <input type="text" name="phone" class="form-input" required />
+          </label>
+          <label class="form-label"
+            >Email
+            <svg class="modal-icon" width="24" height="24">
+              <use href="./images/icons.svg#email-icon"></use>
+            </svg>
+            <input type="text" name="email" class="form-input" required />
+          </label>
+          <label class="form-label"
+            >Comment
+            <textarea
+              name="comment"
+              class="form-input"
+              placeholder="Text input"
+              rows="5"
+            ></textarea>
+          </label>
+          <label class="form-label checkbox">
+            <input type="checkbox" name="policy" class="form-input checkbox" required />
+            I accept the terms and conditions of the
+            <a href="#" class="privacy-policy">Privacy Policy</a>
+          </label>
+          <button type="submit" class="form-btn">Send</button>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
