@@ -435,24 +435,26 @@
         <div class="footer-suscribtion">
           <p class="footer__social-title">Subscribe</p>
           <form class="footer-form" name="subscribtion-form">
-            <label class="footer-form__label" for="subscribe"></label>
-            <input
-              type="email"
-              name="email"
-              class="form-input"
-              id="subscribe"
-              placeholder="E-mail"
-            />
-            <button type="submit" class="form-btn">
-              Subscribe
-              <svg class="subscribtion-btn-icon" width="24" height="24">
-                <use href="./images/icons.svg#send-icon"></use>
-              </svg>
-            </button>
+            <label class="footer-form__label" for="subscribe">
+              <input
+                type="email"
+                name="email"
+                class="form-input"
+                id="subscribe"
+                placeholder="E-mail"
+              />
+              <button type="submit" class="form-btn">
+                Subscribe
+                <svg class="subscribtion-btn-icon" width="24" height="24">
+                  <use href="./images/icons.svg#send-icon"></use>
+                </svg>
+              </button>
+            </label>
           </form>
         </div>
       </div>
     </footer>
+
     <div class="modal-overlay is-open">
       <div class="modal-wrapper">
         <button type="button" class="close-btn">
@@ -506,7 +508,7 @@
           <div class="order-form-container privacy-container">
             <input
               type="checkbox"
-              name="user-policy"
+              name="user-privacy"
               value="true"
               id="user-privacy"
               class="form-input checkbox visually-hidden"
