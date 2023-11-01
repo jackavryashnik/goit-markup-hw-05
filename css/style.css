@@ -554,10 +554,6 @@ textarea {
   gap: 24px;
 }
 
-.form-input {
-  border-radius: 4px;
-}
-
 .footer-form .form-input {
   margin: 0;
   background-color: transparent;
@@ -685,7 +681,6 @@ textarea {
 }
 
 .form-input {
-  margin-top: 4px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   background-color: transparent;
   outline: transparent;
@@ -739,9 +734,12 @@ textarea {
 }
 
 .checkbox-container {
-  display: flex;
+  display: inline-flex;
   flex-direction: row;
   justify-content: center;
+}
+
+.privacy-container {
   margin: 0 0 24px;
 }
 
